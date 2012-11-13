@@ -9,7 +9,7 @@ class Example
 {
     protected $events;
    
-    public function setEventManager(EventCollection $events)
+    public function setEventManager(EventManager $events)
     {
         $this->events = $events;
     }
